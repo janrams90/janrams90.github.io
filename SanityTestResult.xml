@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="62" result="Passed" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.12.0.0" clr-version="4.0.30319.42000" start-time="2021-06-23 08:19:03Z" end-time="2021-06-23 08:20:07Z" duration="63.699687">
+  <command-line><![CDATA["D:\a\ace-e2e-test\ace-e2e-test\Configit.TestAutomation\packages\NUnit.ConsoleRunner.3.12.0\tools\nunit3-console.exe" Configit.TestAutomation\Configit.TA.Tests\bin\Debug\Configit.TA.Tests.dll --where:cat=SanityCategory --result=SanityTestResult.xml]]></command-line>
+  <filter>
+    <cat>SanityCategory</cat>
+  </filter>
+  <test-suite type="Assembly" id="1-1079" name="Configit.TA.Tests.dll" fullname="D:\a\ace-e2e-test\ace-e2e-test\Configit.TestAutomation\Configit.TA.Tests\bin\Debug\Configit.TA.Tests.dll" runstate="Runnable" testcasecount="62" result="Passed" start-time="2021-06-23 08:19:05Z" end-time="2021-06-23 08:20:07Z" duration="61.727693" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17763.0" platform="Win32NT" cwd="D:\a\ace-e2e-test\ace-e2e-test" machine-name="fv-az159-82" user="runneradmin" user-domain="fv-az159-82" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="D:\a\ace-e2e-test\ace-e2e-test" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="net-4.0" />
+      <setting name="NumberOfTestWorkers" value="2" />
+    </settings>
+    <properties>
+      <property name="_PID" value="6452" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="1-1080" name="Configit" fullname="Configit" runstate="Runnable" testcasecount="62" result="Passed" start-time="2021-06-23 08:19:05Z" end-time="2021-06-23 08:20:07Z" duration="61.704374" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <properties />
+      <test-suite type="TestSuite" id="1-1081" name="TA" fullname="Configit.TA" runstate="Runnable" testcasecount="62" result="Passed" start-time="2021-06-23 08:19:05Z" end-time="2021-06-23 08:20:07Z" duration="61.703826" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1-1082" name="Tests" fullname="Configit.TA.Tests" runstate="Runnable" testcasecount="62" result="Passed" start-time="2021-06-23 08:19:05Z" end-time="2021-06-23 08:20:07Z" duration="61.703812" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="SetUpFixture" id="1-1000" name="TestScenarios" fullname="Configit.TA.Tests.TestScenarios.TestRunSetup" classname="Configit.TA.Tests.TestScenarios.TestRunSetup" runstate="Runnable" testcasecount="62" result="Passed" start-time="2021-06-23 08:19:05Z" end-time="2021-06-23 08:20:07Z" duration="61.699976" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <output><![CDATA[2021-06-23 08:19:05,831 INFO Configit.TA.Tests.TestScenarios.TestRunSetup -- ############### Running one time setup ###############
+2021-06-23 08:19:05,847 INFO Configit.TA.Core.Configuration.TestConfiguration -- Using test environment: https://dailye2e.ace.configit.cloud/
+2021-06-23 08:19:05,847 INFO Configit.TA.Tests.TestScenarios.TestRunSetup -- Cleaning screenshots directory: D:\a\ace-e2e-test\ace-e2e-test\Configit.TestAutomation\Configit.TA.Tests\bin\Debug\screenshots
+2021-06-23 08:19:05,849 WARN Configit.TA.Tests.TestScenarios.TestRunSetup -- Could not clean screenshots directory. Exception: Could not find a part of the path 'D:\a\ace-e2e-test\ace-e2e-test\Configit.TestAutomation\Configit.TA.Tests\bin\Debug\screenshots'.
+2021-06-23 08:19:05,849 INFO Configit.TA.Tests.TestScenarios.TestRunSetup -- ############### Finished one time setup ###############
+2021-06-23 08:20:02,990 INFO Configit.TA.Tests.TestScenarios.TestRunSetup -- ############### Running one time teardown ###############
+2021-06-23 08:20:07,031 INFO Configit.TA.Tests.TestScenarios.TestRunSetup -- ############### Finished one time teardown ###############
+]]></output>
+            <test-suite type="TestSuite" id="1-1084" name="Sanity" fullname="Configit.TA.Tests.TestScenarios.Sanity" runstate="Runnable" testcasecount="3" result="Passed" start-time="2021-06-23 08:19:05Z" end-time="2021-06-23 08:20:02Z" duration="57.136580" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-suite type="TestFixture" id="1-1001" name="SanityTestSuite" fullname="Configit.TA.Tests.TestScenarios.Sanity.SanityTestSuite" classname="Configit.TA.Tests.TestScenarios.Sanity.SanityTestSuite" runstate="Runnable" testcasecount="3" result="Passed" start-time="2021-06-23 08:19:05Z" end-time="2021-06-23 08:20:02Z" duration="57.134783" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <output><![CDATA[2021-06-23 08:19:05,852 INFO Configit.TA.Core.Configuration.LogExecutionDetailsAttribute -- ########## Started running  test suite: [SanityTestSuite]
+2021-06-23 08:20:02,988 INFO Configit.TA.Core.Configuration.LogExecutionDetailsAttribute -- ########## Finished running  test suite: [SanityTestSuite]
+]]></output>
+                <test-case id="1-1003" name="CreateRemoveWorkItem" fullname="Configit.TA.Tests.TestScenarios.Sanity.SanityTestSuite.CreateRemoveWorkItem" methodname="CreateRemoveWorkItem" classname="Configit.TA.Tests.TestScenarios.Sanity.SanityTestSuite" runstate="Runnable" seed="1896735541" result="Passed" start-time="2021-06-23 08:19:05Z" end-time="2021-06-23 08:19:49Z" duration="43.600867" asserts="0">
+                  <properties>
+                    <property name="Category" value="SanityCategory" />
+                  </properties>
+                  <output><![CDATA[2021-06-23 08:19:05,859 INFO Configit.TA.Core.Configuration.LogExecutionDetailsAttribute -- ##### Started running  test case: [CreateRemoveWorkItem]
+2021-06-23 08:19:05,861 INFO Configit.TA.Tests.TestScenarios.Base.BaseWebTestSuite -- Initializing browser window...
+2021-06-23 08:19:05,863 INFO Configit.TA.Core.Extensions.WrappedWebDriver -- Creating webdriver instance...
+2021-06-23 08:19:13,862 INFO Configit.TA.Tests.TestScenarios.Base.BaseWebTestSuite -- Browser initialized.
+2021-06-23 08:19:13,867 INFO Configit.TA.Tests.TestSteps.BaseStep -- # Executing step: [Login] with parameters: [Admin]
+2021-06-23 08:19:29,528 INFO Configit.TA.Tests.TestSteps.BaseStep -- # Executing step: [CreateWorkItemFromHomePage] with parameters: [WI_23062021_081913865, test work item]
+2021-06-23 08:19:32,901 INFO Configit.TA.Tests.TestSteps.BaseStep -- # Executing step: [NavigateToWorkItemsPage]
+2021-06-23 08:19:34,037 INFO Configit.TA.Tests.TestSteps.BaseStep -- # Executing step: [OpenWorkItemDetails] with parameters: [WI_23062021_081913865]
+2021-06-23 08:19:38,099 INFO Configit.TA.Tests.TestSteps.BaseStep -- # Executing step: [NavigateToWorkItemsPage]
+2021-06-23 08:19:38,977 INFO Configit.TA.Tests.TestSteps.BaseStep -- # Executing step: [OpenWorkItemDetails] with parameters: [WI_23062021_081913865]
+2021-06-23 08:19:42,972 INFO Configit.TA.Tests.TestSteps.BaseStep -- # Executing step: [CloseWorkItem] with parameters: [WI_23062021_081913865]
+2021-06-23 08:19:49,296 INFO Configit.TA.Tests.TestScenarios.Base.BaseWebTestSuite -- Closing the browser...
+2021-06-23 08:19:49,455 INFO Configit.TA.Core.Configuration.LogExecutionDetailsAttribute -- ##### Finished running  test case: [CreateRemoveWorkItem]
+]]></output>
+                </test-case>
+                <test-case id="1-1002" name="LoginToAceModelAsAdmin" fullname="Configit.TA.Tests.TestScenarios.Sanity.SanityTestSuite.LoginToAceModelAsAdmin" methodname="LoginToAceModelAsAdmin" classname="Configit.TA.Tests.TestScenarios.Sanity.SanityTestSuite" runstate="Runnable" seed="1835841479" result="Passed" start-time="2021-06-23 08:19:49Z" end-time="2021-06-23 08:19:55Z" duration="5.679852" asserts="0">
+                  <properties>
+                    <property name="Category" value="SanityCategory" />
+                  </properties>
+                  <output><![CDATA[2021-06-23 08:19:49,461 INFO Configit.TA.Core.Configuration.LogExecutionDetailsAttribute -- ##### Started running  test case: [LoginToAceModelAsAdmin]
+2021-06-23 08:19:49,461 INFO Configit.TA.Tests.TestScenarios.Base.BaseWebTestSuite -- Initializing browser window...
+2021-06-23 08:19:49,463 INFO Configit.TA.Core.Extensions.WrappedWebDriver -- Creating webdriver instance...
+2021-06-23 08:19:50,730 INFO Configit.TA.Tests.TestScenarios.Base.BaseWebTestSuite -- Browser initialized.
+2021-06-23 08:19:50,730 INFO Configit.TA.Tests.TestSteps.BaseStep -- # Executing step: [Login] with parameters: [Admin]
+2021-06-23 08:19:55,035 INFO Configit.TA.Tests.TestScenarios.Base.BaseWebTestSuite -- Closing the browser...
+2021-06-23 08:19:55,141 INFO Configit.TA.Core.Configuration.LogExecutionDetailsAttribute -- ##### Finished running  test case: [LoginToAceModelAsAdmin]
+]]></output>
+                </test-case>
+                <test-case id="1-1004" name="LoginToAcePlatformAsTechUser" fullname="Configit.TA.Tests.TestScenarios.Sanity.SanityTestSuite.LoginToAcePlatformAsTechUser" methodname="LoginToAcePlatformAsTechUser" classname="Configit.TA.Tests.TestScenarios.Sanity.SanityTestSuite" runstate="Runnable" seed="635408506" result="Passed" start-time="2021-06-23 08:19:55Z" end-time="2021-06-23 08:20:02Z" duration="7.843037" asserts="0">
+                  <properties>
+                    <property name="Category" value="SanityCategory" />
+                  </properties>
+                  <output><![CDATA[2021-06-23 08:19:55,141 INFO Configit.TA.Core.Configuration.LogExecutionDetailsAttribute -- ##### Started running  test case: [LoginToAcePlatformAsTechUser]
+2021-06-23 08:19:55,141 INFO Configit.TA.Tests.TestScenarios.Base.BaseWebTestSuite -- Initializing browser window...
+2021-06-23 08:19:55,141 INFO Configit.TA.Core.Extensions.WrappedWebDriver -- Creating webdriver instance...
+2021-06-23 08:19:56,397 INFO Configit.TA.Tests.TestScenarios.Base.BaseWebTestSuite -- Browser initialized.
+2021-06-23 08:19:56,398 INFO Configit.TA.Tests.TestSteps.BaseStep -- # Executing step: [Login] with parameters: [tech]
+2021-06-23 08:20:02,875 INFO Configit.TA.Tests.TestScenarios.Base.BaseWebTestSuite -- Closing the browser...
+2021-06-23 08:20:02,984 INFO Configit.TA.Core.Configuration.LogExecutionDetailsAttribute -- ##### Finished running  test case: [LoginToAcePlatformAsTechUser]
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
